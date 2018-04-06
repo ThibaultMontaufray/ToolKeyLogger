@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace OperatingSystemAnalyst
 {
-    class Program
+    public interface IService
     {
-        static void Main(string[] args)
-        {
-        }
+        void Start();
+
+        void Stop();
+
+        //void Shutdown();
     }
 }
